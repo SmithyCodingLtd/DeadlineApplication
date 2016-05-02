@@ -1,19 +1,16 @@
 package com.example.craftycoders.deadlineapplication;
 
 import android.os.Bundle;
-
 import android.widget.ListView;
 
+import com.example.craftycoders.deadlineapplication.Data.DeadlineOpenHelper;
 import com.example.craftycoders.deadlineapplication.Models.Deadline;
-
 import java.util.List;
-
 import android.support.v7.app.AppCompatActivity;
 
 
 public class ViewDeadlines extends AppCompatActivity {
 
-    private DeadlineAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
